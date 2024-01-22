@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+.hovershoe7cart{
+    
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hovershoe7:hover .hovershoe7cart{
+    opacity: 1;
+
+}
+
+.hovershoe7{
+    position: relative;
+    overflow: hidden;
+}
+.hovershoe7cart img{
+    width: 25%;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+
+.hovershoe8:hover .hovershoe7cart{
+    opacity: 1;
+
+}
+.hovershoe8{
+    position: relative;
+    overflow: hidden;
+}
+.hovershoe9:hover .hovershoe7cart{
+    opacity: 1;
+
+}
+.hovershoe9{
+    position: relative;
+    overflow: hidden;
+}
+.hovershoe10:hover .hovershoe7cart{
+    opacity: 1;
+
+}
+.hovershoe10{
+    position: relative;
+    overflow: hidden;
+}
+.hovershoe11:hover .hovershoe7cart{
+    opacity: 1;
+
+}
+.hovershoe11{
+    position: relative;
+    overflow: hidden;
+}
+.hovershoe12:hover .hovershoe7cart{
+    opacity: 1;
+
+}
+.hovershoe12{
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width:500px){
+       .aboutus img{
+        width: 100%;
+    }
+    .text-end ,.copyrights{
+        text-align: center !important;
+    }
+    .contactusshoeimage img, .contactdetails img{
+        margin-left:auto !important;
+        height: auto;
+        width: 100%;
+    }
+    ul{
+        padding-left: 0;
+    }
+
+   
+ 
+}
+@media (min-width:700px) and (max-width:850px){
+    .aboutus img{
+     width: 100%;
+     height: auto;
+ }
+ .text-end ,.copyrights{
+     text-align: center !important;
+ }
+ .contactusshoeimage img, .contactdetails img{
+     margin-left:auto  !important;
+     height: auto;
+     width: 100%;
+ }
+ ul{
+     padding-left: 0;
+ }
+
+ .hovershoe7cart img {
+    margin-left: 250px;
+    margin-top: 300px;
+
+ }
+
+}
